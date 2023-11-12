@@ -46,4 +46,5 @@ let g:coc_global_extensions =
 call plug#end()
 let mapleader = " "
 nnoremap <leader>ff :Telescope find_files<CR>
+nnoremap <Leader>fg <Cmd>Telescope live_grep<CR>
 set number
